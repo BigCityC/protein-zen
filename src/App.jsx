@@ -2,6 +2,9 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
+//import HomePage from './Homepage/Homepage'
+///\/\/\/\**Imported my HomePage file but commented it out for now and
+// just practicing branches with the HomePage folder/file
 
 function App() {
   const [count, setCount] = useState(0)

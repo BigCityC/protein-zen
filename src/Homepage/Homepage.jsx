@@ -8,7 +8,7 @@ export default function HomePage() {
     }
 
     return (<>
-        <p>{hideText ? <p>Home Page</p> : <p>Hidden</p>}</p>
+        <p>{hideText ? <p>Protien HomePage</p> : <p>Hidden</p>}</p>
         <btn onClick={handleToggleHide}>Show/Hide</btn>
     </>)
 }
