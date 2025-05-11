@@ -7,9 +7,9 @@ export default function HomePage() {
         <title>Macrozen</title>
         <div className="homepage">
             <div className="welcome-container">
-                <span>Welcome to MacroZen!</span>
-                <span>Input and Log your protein count when ever you want, daily!</span>
-                <span>MacroZen you later!</span>
+                <p> Welcome to MacroZen! </p>
+                <p> Input and Log your protein count when ever you want, daily! </p>
+                <p> MacroZen you later! </p>
             </div>
 
             <div>
