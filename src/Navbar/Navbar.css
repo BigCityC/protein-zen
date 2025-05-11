@@ -1,15 +1,36 @@
-  .nav-wrapper {
-      display: flex;
-      flex-direction: row;
-      flex-wrap: nowrap;
-      align-items: start;
-      justify-content: space-between;
-      text-align: start;
-      background-color: #ff0659;
-      top: 0;
-      position: absolute;
-      /* width: 100%;
-    height: 10%;
-    z-index: 5;
-    margin-bottom: 100px; */
+  body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
   }
+
+
+  /***Navbar Selectors******************************************************/
+  .navbar-container {
+    display: flex;
+    border: 1px solid black;
+    background-color: purple;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: stretch;
+    text-align: start;
+    top: 0;
+    position: fixed;
+    height: 3em;
+    width: 100%;
+
+  }
+
+  .nav-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: center;
+  }
+
+  .macrozen-title {
+    font-size: 4vw;
+  }
+
+
+  /************************************************************************* */

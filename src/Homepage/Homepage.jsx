@@ -1,14 +1,20 @@
-import { useState } from "react";
+import { Link } from "react-router";
 
 export default function HomePage() {
-    const [hideText, setHideText] = useState(true);
 
-    function handleToggleHide(event) {
-        setHideText(!hideText);
-    }
 
     return (<>
-        <p>{hideText ? <p>Protien HomePage</p> : <p>Hidden</p>}</p>
-        <btn onClick={handleToggleHide}>Show/Hide</btn>
+        <title>Macrozen</title>
+        <div className="homepage">
+            <div className="welcome-container">
+                <span>Welcome to MacroZen!</span>
+                <span>Input and Log your protein count when ever you want, daily!</span>
+                <span>MacroZen you later!</span>
+            </div>
+
+            <div>
+                <Link to="/InputProtein">+ Input Protein</Link>
+            </div>
+        </div>
     </>)
 }
