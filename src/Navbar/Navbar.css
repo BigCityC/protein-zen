@@ -16,9 +16,9 @@
     text-align: start;
     top: 0;
     position: fixed;
-    height: 3em;
+    height: 4em;
     width: 100%;
-
+    background-size: 4vw;
   }
 
   .nav-wrapper {
@@ -29,7 +29,7 @@
   }
 
   .macrozen-title {
-    font-size: 4vw;
+    font-size: 3em;
     color: white;
   }
 
